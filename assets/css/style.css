@@ -165,3 +165,32 @@
   padding-bottom: 100px;
   padding-top: 100px;
 }
+
+
+.typed{
+  height: 220px;
+  color:white;
+  font-size: 35px;
+  line-height: 65px;
+  font-family:'Open Sans';
+  font-weight: 100;
+} 
+.js-typed{
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+  
+.typed-cursor{
+  font-family:sans-serif;
+    opacity: 1;
+  margin-left:2px;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
