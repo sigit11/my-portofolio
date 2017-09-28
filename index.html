@@ -14,25 +14,25 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
       		<ul class="nav navbar-nav">
-      			<li class="logo"><a href="index.html">Sigit.</a></li>
+      			<li class="logo active"><a href="index.html">Sigit.</a></li>
       		</ul>
       		<ul class="nav navbar-nav navbar-right">
-      			<li class="smooth-menu active">
-      				<a href="#">Home</a>
+      			<li class="nav-item">
+      				<a href="#" data-id="home">Home</a>
       			</li>
-      			<li class="smooth-menu">
-      				<a href="#">About</a>
+      			<li class="nav-item">
+      				<a href="#" data-id="about">About</a>
       			</li>
-      			<li class="smooth-menu">
+      			<li class="nav-item">
       				<a href="#">Service</a>
       			</li>
-      			<li class="smooth-menu">
+      			<li class="nav-item">
       				<a href="#">Portofolio</a>
       			</li>
-      			<li class="smooth-menu">
+      			<li class="nav-item">
       				<a href="#">Blog</a>
       			</li>
-      			<li class="smooth-menu">
+      			<li class="nav-item">
       				<a href="#">Contact</a>
       			</li>
       		</ul>
@@ -41,24 +41,28 @@
     <!-- bagian home -->
     <section id="home" class="parallax-1">
     	<div class="container">
-    		<h1>I'm Sigit Setiaji</h1>
-    		<h1>I'm Web Developer</h1>	
-    		<h1>Live In Jakarta</h1>
-	    	<div class="social-link">
-	    		<a href="#">
-					<i class="fa fa-facebook" style="font-size:30px;"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-linkedin" style="font-size:30px;"></i>
-				</a><a href="#">
-					<i class="fa fa-twitter" style="font-size:30px;"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-google-plus" style="font-size:30px;"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-behand" style="font-size:30px;"></i>
-				</a>
+    		<div class="row">
+    			<div class="col-md-12">
+		    		<h1>I'm Sigit Setiaji</h1>
+		    		<h1>I'm Web Developer</h1>	
+		    		<h1>Live In Jakarta</h1>
+			    	<div class="social-link">
+			    		<a href="#">
+							<i class="fa fa-facebook" style="font-size:30px;"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-linkedin" style="font-size:30px;"></i>
+						</a><a href="#">
+							<i class="fa fa-twitter" style="font-size:30px;"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-google-plus" style="font-size:30px;"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-behand" style="font-size:30px;"></i>
+						</a>
+			    	</div>
+			    </div>
 	    	</div>
 	    </div>
     </section>
@@ -120,9 +124,9 @@
     <section id="service">
     	<div class="container">
     		<div class="service-section">
-    			<h2>WHAT I DO</h2>
+    			<h2 class="judul">WHAT I DO</h2>
     			<hr>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!</p>
+    			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!</p>
     		</div>
     		<div class="row">
     			<div class="col-md-4">
@@ -162,60 +166,68 @@
     <section id="works">
     	<div class="container">
     		<div class="work-section">
-				<h2>LATES WORKS</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
-				</p>
-				<button class="btn btn-default filter-button" data-filter="all">ALL</button>
-				<button class="btn btn-default filter-button" data-filter="des">Design</button>
-				<button class="btn btn-default filter-button" data-filter="dev">Development</button>
-				<button class="btn btn-default filter-button" data-filter="photo">Photography</button>
-				<button class="btn btn-default filter-button" data-filter="anim">Animation</button>	
+    			<div class="row">
+    				<div class="col-md-12">
+						<h2 class="judul">LATES WORKS</h2>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
+						</p>
+						<button class="btn btn-default filter-button" data-filter="all">ALL</button>
+						<button class="btn btn-default filter-button" data-filter="des">Design</button>
+						<button class="btn btn-default filter-button" data-filter="dev">Development</button>
+						<button class="btn btn-default filter-button" data-filter="photo">Photography</button>
+						<button class="btn btn-default filter-button" data-filter="anim">Animation</button>
+					</div>
+				</div>	
 			</div>
 			<div class="row">
-				<div class="col-md-4 filter dev print">
-					<a href="assets/images/img1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img1.jpg" class="img-fluid">
+				<div class="col-md-4 dev">
+					<a href="assets/images/porto-1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-1.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des print">
-					<a href="assets/images/img2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img2.jpg" class="img-fluid">
+				<div class="col-md-4 photo anim">
+					<a href="assets/images/porto-2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-2.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter dev">
-					<a href="assets/images/img3.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img3.jpg" class="img-fluid">
+				<div class="col-md-4 des">
+					<a href="assets/images/porto-3.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-3.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des dev">
-					<a href="assets/images/img4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img4.jpg" class="img-fluid">
+			</div>
+			<div class="row">
+				<div class="col-md-4 des photo anim">
+					<a href="assets/images/porto-5.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-5.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter dev">
-					<a href="assets/images/img5.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img5.jpg" class="img-fluid">
+				<div class="col-md-4 anim">
+					<a href="assets/images/porto-4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-4.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des print">
-					<a href="assets/images/img6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img6.jpg" class="img-fluid">
+				<div class="col-md-4 dev">
+					<a href="assets/images/porto-6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-6.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des print">
-					<a href="assets/images/img6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img6.jpg" class="img-fluid">
+			</div>
+			<div class="row">
+				<div class="col-md-4 des">
+					<a href="assets/images/porto-7.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-7.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des print">
-					<a href="assets/images/img6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img6.jpg" class="img-fluid">
+				<div class="col-md-4 des dev">
+					<a href="assets/images/porto-9.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-9.jpg" class="img-responsive">
 					</a>
 				</div>
-				<div class="col-md-4 filter des print">
-					<a href="assets/images/img6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/img6.jpg" class="img-fluid">
+				<div class="col-md-4 anim">
+					<a href="assets/images/porto-8.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+						<img src="assets/images/porto-8.jpg" class="img-responsive">
 					</a>
 				</div>
 			</div>
@@ -233,9 +245,9 @@
 	<section id="blogs">
 		<div class="container">
 			<div class="blogs-section">
-				<h2>LATES POST</h2>
+				<h2 class="judul">LATES POST</h2>
 				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
 				</p>
 			</div>
 			<div class="row">
@@ -250,7 +262,7 @@
 								<i class="fa fa-comment-o">24 Comments</i>
 							</span>
 						</div>
-						<h3>ENTER YOUR BLOG TITLE HERE</h3>
+						<h4>ENTER YOUR BLOG TITLE HERE</h4>
 						<p>Lorem ipsum dolor sit amet, conctetur adicing elit, sed do eiusmod tempor incididunt labore et dolore magna aqua. Ut eniminim veniniam, quis nostrud laboris nisi.
 						</p>
 						<button type="button" class="btn btn-primary">Read More</button>
@@ -267,7 +279,7 @@
 								<i class="fa fa-comment-o">24 Comments</i>
 							</span>
 						</div>
-						<h3>ENTER YOUR BLOG TITLE HERE</h3>
+						<h4>ENTER YOUR BLOG TITLE HERE</h4>
 						<p>Lorem ipsum dolor sit amet, conctetur adicing elit, sed do eiusmod tempor incididunt labore et dolore magna aqua. Ut eniminim veniniam, quis nostrud laboris nisi.
 						</p>
 						<button type="button" class="btn btn-primary">Read More</button>	
@@ -284,7 +296,7 @@
 								<i class="fa fa-comment-o">24 Comments</i>
 							</span>
 						</div>
-						<h3>ENTER YOUR BLOG TITLE HERE</h3>
+						<h4>ENTER YOUR BLOG TITLE HERE</h4>
 						<p>Lorem ipsum dolor sit amet, conctetur adicing elit, sed do eiusmod tempor incididunt labore et dolore magna aqua. Ut eniminim veniniam, quis nostrud laboris nisi.
 						</p>
 						<button type="button" class="btn btn-primary">Read More</button>	
@@ -293,14 +305,66 @@
 			</div>
 		</div>	
 	</section>
+	<!-- parallax carousel -->
+	<section id="marketing" class="parallax-4">
+		    <div class="container">
+			    <div class="row">
+			        <div class="col-md-12">
+						<div id="text-carousel" class="carousel slide" data-ride="carousel">
+				            <div class="carousel-inner">
+				                <div class="item active">
+				                    <div class="carousel-content">
+				                        <div>
+				                            <i class="fa fa-quote-left"></i>
+								        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+								        	<br>Nullam id dolor id nibh ultricies vehicula ut id elit
+								        	</p>
+								        	<h3>Sigit Setiaji</h3>
+								        	<span>Ceo Smart Tech</span>
+				                        </div>
+				                    </div>
+				                </div>
+				                <div class="item">
+				                    <div class="carousel-content">
+				                        <div>
+				                            <i class="fa fa-quote-left"></i>
+								        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+								        	<br>Nullam id dolor id nibh ultricies vehicula ut id elit
+								        	</p>
+								        	<h3>Sigit Setiaji</h3>
+								        	<span>Ceo Smart Tech</span>
+				                        </div>
+				                    </div>
+				                </div>
+				                <div class="item">
+				                    <div class="carousel-content">
+				                        <div>                          
+				                            <i class="fa fa-quote-left"></i>
+								        	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+								        	<br>Nullam id dolor id nibh ultricies vehicula ut id elit
+								        	</p>
+								        	<h3>Sigit Setiaji</h3>
+								        	<span>Ceo Smart Tech</span>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+			        </div>
+			    </div>
+	        </div>
+		</div>
+	</section>
+	
 	<!-- bagian contact ME -->
 	<section id="contact">
 		<div class="container">
-			<h2 class="contact-us">CONTACT ME</h2>
+			<h2 class="judul">CONTACT ME</h2>
 			<hr>
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!</p>
 			<form class="form-horizontal" action="/action_page.php">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<h3>I'm Available For Freelance</h3>
 						<div class="row">
 							<div class="col-md-12">
@@ -315,7 +379,7 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea class="form-control" id="message" placeholder="Your Messae" rows="11" data-error="Write your message" required></textarea>
+									<textarea class="form-control" id="message" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
 								</div>
 							</div>
 							<button type="button" class="btn btn-primary">Send Message</button>
@@ -324,46 +388,18 @@
 					<div class="col-md-5">
 						<h3>Feel Free To Contact With Me !</h3>
 						<div class="row">
-							<div class="col-md-12">
-								<ul>
-									<li class="phone">
-										<a href="#">
-											<i class="fa fa-phone" style="font-size:30px;"></i>
-										</a>
-										<p>+628970688872</p>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<ul>
-									<li class="envelope">
-										<a href="#">
-											<i class="fa fa-envelope-o" style="font-size:36px"></i>
-										</a>
-										<p>sigitsetiaji4@gmail.com</p>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<ul>
-									<li class="location-arrow">
-										<a href="#">
-											<i class="fa fa-location-arrow" style="font-size:30px;"></i>
-										</a>
-										<p>jln. sahabat baru rt 009 /001 kel.duri kepa kec. kebon jeruk jakarta barat</p>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<ul>
-									<li class="globe">
-										<a href="#">
-											<i class="fa fa-globe" style="font-size:30px;"></i>
-										</a>
-										<p>www.sigitsetiaji.com</p>
-									</li>
-								</ul>
-							</div>
+							<div class="col-md-12 address">
+                                <p><i class="fa fa-phone" style="font-size:40px;"></i> +880 1680 597617</p>
+                            </div>
+                            <div class="col-md-12 address">
+                                <p><i class="fa fa-envelope-o" style="font-size:40px;"></i> sigitsetiaji4@gmail.com</p>
+                            </div>
+                            <div class="col-md-12 address">
+                                <p><i class="fa fa-location-arrow" style="font-size:40px;"></i> jln. sahabat baru rt 009 /001 kel.duri kepa kec. kebon jeruk jakarta barat</p>
+                            </div>
+                            <div class="col-md-12 address">
+                                <p><i class="fa fa-globe" style="font-size:40px;"></i> www.sigitsetiaji.com</p>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -375,67 +411,23 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2">
-						<ul>
-							<li class="facebook">
-								<a href="#">
-									<i class="fa fa-facebook" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li class="twitter">
-								<a href="#">
-									<i class="fa fa-twitter" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li class="google-plus">
-								<a href="#">
-									<i class="fa fa-google-plus" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li class="linkedin">
-								<a href="#">
-									<i class="fa fa-linkedin" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li class="pinterest">
-								<a href="#">
-									<i class="fa fa-pinterest" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li class="dribbble">
-								<a href="#">
-									<i class="fa fa-dribbble" style="font-size:30px;"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="site-info">
-						<p>All copyrights reserved © 2017 - Designed & Developed by UIdeck</p>
-					</div>
+					<div class="col-md-12 text-center">
+                    <div class="social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                    </div> 
+                    <div class="copyright">
+                        <p>copyright &copy; 2017 john, all right reserved.</p>
+                        <p>Created by <a href="" target=_blank>sigit_themes</a></p>
+                    </div>
 				</div>
 			</div>
 		</footer>	
 	</section>
+
 
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>

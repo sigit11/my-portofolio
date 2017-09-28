@@ -11,6 +11,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#home{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
 .skills {
   text-align: right;
   padding-right: 20px;
@@ -39,13 +45,49 @@
     background-image: url("/my-portofolio/assets/images/pem2.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 100px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#service{
+  background-color: #F2F2F2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+#works{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
 }
 
 #download-section{
@@ -59,7 +101,7 @@
     background-image: url("/my-portofolio/assets/images/background3.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 100px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -67,10 +109,59 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#blogs{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#marketing{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.parallax-4 {
+    /* The image used */
+    background-image: url("/my-portofolio/assets/images/pkg-2.jpg");
+
+    /* Set a specific height */
+    min-height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.judul{
+  color: #575757;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align:center;
+}
 #footer-section{
   text-align: center;
   color: white;
   background: #333;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+.carousel-content {
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
