@@ -13,42 +13,49 @@
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-      		<ul class="nav navbar-nav">
-      			<li class="logo active"><a href="index.html">Sigit.</a></li>
-      		</ul>
-      		<ul class="nav navbar-nav navbar-right">
-      			<li class="nav-item">
-      				<a href="#" data-id="home">Home</a>
-      			</li>
-      			<li class="nav-item">
-      				<a href="#" data-id="about">About</a>
-      			</li>
-      			<li class="nav-item">
-      				<a href="#">Service</a>
-      			</li>
-      			<li class="nav-item">
-      				<a href="#">Portofolio</a>
-      			</li>
-      			<li class="nav-item">
-      				<a href="#">Blog</a>
-      			</li>
-      			<li class="nav-item">
-      				<a href="#">Contact</a>
-      			</li>
-      		</ul>
+			<div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>                        
+		      	</button>
+	      		<a class="navbar-brand" href="index.html">Sigit.</a>
+	      	</div>
+	      	<div>
+	      		<div class="collapse navbar-collapse" id="myNavbar">
+		      		<ul class="nav navbar-nav navbar-right">
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#home" >Home</a>
+		      			</li>
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#about">About</a>
+		      			</li>
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#service">Service</a>
+		      			</li>
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#works">Portofolio</a>
+		      			</li>
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#blogs">Blog</a>
+		      			</li>
+		      			<li class="nav-item">
+		      				<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+		      			</li>
+		      		</ul>
+		      	</div>
+	      	</div>
       	</div>
     </nav>
+
     <!-- bagian home -->
     <section id="home" class="parallax-1">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-12">
-    				<h1 class='typed'>
-					    <span class='js-typed'></span>
+    				<h1 class="typed judul">
+					    <span class="js-typed"></span>
 					</h1>
-		    		<!-- <h1>I'm Sigit Setiaji</h1>
-		    		<h1>I'm Web Developer</h1>	
-		    		<h1>Live In Jakarta</h1> -->
 			    	<div class="social-link">
 			    		<a href="#">
 							<i class="fa fa-facebook" style="font-size:30px;"></i>
@@ -168,69 +175,70 @@
     <!-- works -->
     <section id="works">
     	<div class="container">
-    		<div class="work-section">
-    			<div class="row">
-    				<div class="col-md-12">
-						<h2 class="judul">LATES WORKS</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
-						</p>
-						<button class="btn btn-default filter-button" data-filter="all">ALL</button>
-						<button class="btn btn-default filter-button" data-filter="des">Design</button>
-						<button class="btn btn-default filter-button" data-filter="dev">Development</button>
-						<button class="btn btn-default filter-button" data-filter="photo">Photography</button>
-						<button class="btn btn-default filter-button" data-filter="anim">Animation</button>
-					</div>
-				</div>	
-			</div>
+		<!-- <div class="work-section"> -->
 			<div class="row">
-				<div class="col-md-4 dev">
+				<div class="col-md-12">
+					<h2 class="judul">LATES WORKS</h2>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi, delectus veniam!
+					</p>
+					<button class="btn btn-default filter-button" data-filter="all">ALL</button>
+					<button class="btn btn-default filter-button" data-filter="des">Design</button>
+					<button class="btn btn-default filter-button" data-filter="dev">Development</button>
+					<button class="btn btn-default filter-button" data-filter="photo">Photography</button>
+					<button class="btn btn-default filter-button" data-filter="anim">Animation</button>
+				</div>
+			</div>	
+		<!-- </div> -->
+			<div class="row">
+				<div class="col-md-4 filter dev">
 					<a href="assets/images/porto-1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-1.jpg" class="img-responsive">
+						<img src="assets/images/porto-1.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 photo anim">
+				<div class="col-md-4 filter photo anim">
 					<a href="assets/images/porto-2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-2.jpg" class="img-responsive">
+						<img src="assets/images/porto-2.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 des">
+				<div class="col-md-4 filter des">
 					<a href="assets/images/porto-3.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-3.jpg" class="img-responsive">
+						<img src="assets/images/porto-3.jpg" class="img-fluid">
 					</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 des photo anim">
+
+				<div class="col-md-4 filter des photo anim">
 					<a href="assets/images/porto-5.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-5.jpg" class="img-responsive">
+						<img src="assets/images/porto-5.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 anim">
+				<div class="col-md-4 filter anim">
 					<a href="assets/images/porto-4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-4.jpg" class="img-responsive">
+						<img src="assets/images/porto-4.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 dev">
+				<div class="col-md-4 filter dev">
 					<a href="assets/images/porto-6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-6.jpg" class="img-responsive">
+						<img src="assets/images/porto-6.jpg" class="img-fluid">
 					</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 des">
+				<div class="col-md-4 filter des">
 					<a href="assets/images/porto-7.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-7.jpg" class="img-responsive">
+						<img src="assets/images/porto-7.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 des dev">
+				<div class="col-md-4 filter des dev">
 					<a href="assets/images/porto-9.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-9.jpg" class="img-responsive">
+						<img src="assets/images/porto-9.jpg" class="img-fluid">
 					</a>
 				</div>
-				<div class="col-md-4 anim">
+				<div class="col-md-4 filter anim">
 					<a href="assets/images/porto-8.jpg" data-toggle="lightbox" data-gallery="example-gallery">
-						<img src="assets/images/porto-8.jpg" class="img-responsive">
+						<img src="assets/images/porto-8.jpg" class="img-fluid">
 					</a>
 				</div>
 			</div>
@@ -392,7 +400,7 @@
 						<h3>Feel Free To Contact With Me !</h3>
 						<div class="row">
 							<div class="col-md-12 address">
-                                <p><i class="fa fa-phone" style="font-size:40px;"></i> +880 1680 597617</p>
+                                <p><i class="fa fa-phone" style="font-size:40px;"></i> +628970688872</p>
                             </div>
                             <div class="col-md-12 address">
                                 <p><i class="fa fa-envelope-o" style="font-size:40px;"></i> sigitsetiaji4@gmail.com</p>
@@ -435,6 +443,7 @@
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 	<script src="assets/js/ekko-lightbox.js"></script>
+	<script src="assets/js/scrollspy.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
 </html>

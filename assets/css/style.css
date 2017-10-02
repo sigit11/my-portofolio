@@ -1,11 +1,11 @@
+
 .parallax-1{
-    /* The image used */
+
     background-image: url("/my-portofolio/assets/images/pem.jpg");
 
-    /* Set a specific height */
     min-height: 500px; 
 
-    /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,28 +66,28 @@
 }
 .filter-button
 {
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42B32F;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
-    color: white;
+  background-color: #42B32F;
+  color: white;
 }
 
 #download-section{
@@ -153,9 +153,11 @@
 }
 
 .carousel-content {
-    color:white;
-    display:flex;
-    align-items:center;
+  color:white;
+  display:flex;
+  align-items:center;
+  width: 1140px;
+  height: 46px;
 }
 
 #text-carousel {
@@ -170,10 +172,13 @@
 .typed{
   height: 220px;
   color:white;
-  font-size: 35px;
+  font-size: 36px;
   line-height: 65px;
   font-family:'Open Sans';
-  font-weight: 100;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 } 
 .js-typed{
   margin: 0;
@@ -194,3 +199,4 @@
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
