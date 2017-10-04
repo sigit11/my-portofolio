@@ -139,11 +139,6 @@ header.masthead {
   color: white;
 }
 
-.html {width: 80%; background-color: #4CAF50;}
-.word {width: 85%; background-color: #2196F3;}
-.js {width: 93%; background-color: #f44336;}
-.php {width: 87%; background-color: #808080;}
-
 #about{
   padding-top: 80px;
   padding-bottom: 80px;
@@ -210,6 +205,47 @@ header.masthead {
   padding-top: 80px;
   padding-bottom: 80px;
   color: white;
+}
+
+.img-thumbnail {
+    padding: 10px;
+}
+.post-box{
+    margin: 10px 0 10px 0;
+}
+
+
+/**** Transitions for Masonry ****/
+.masonry {
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      -ms-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+.row {
+ -moz-column-width: 25em;
+ -webkit-column-width: 25em;
+ -moz-column-gap: 10px;
+ -webkit-column-gap:10px; 
+  
+}
+
+.row > .col-md-4 {
+ display: inline-block;
+ padding: 0;
+ margin: 10px;
+ width:  100%; 
+ float:none;
+}
+
+.img-responsive {
+  border:0px solid #999;
 }
 .parallax-3 {
     /* The image used */
